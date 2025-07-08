@@ -63,6 +63,7 @@ public class Inventory {
             books.add(book);
             return true;
         }
+        System.err.println("Book: " + book.getTitle() + "of ISBN: "+ book.getISBN() + " Already Exists!");
         return false;
     }
 

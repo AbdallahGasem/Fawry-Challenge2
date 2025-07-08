@@ -39,7 +39,7 @@ public class PurshasingService {
 
         // if it is a Demo book exit
         if (book instanceof ShowCaseBook) {
-            System.err.println("Book is not for sale!");
+            System.err.println("Book: '" +book.getTitle() + "'' is not for sale!");
             return false;
         }
 

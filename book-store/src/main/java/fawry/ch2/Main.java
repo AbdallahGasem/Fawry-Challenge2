@@ -65,7 +65,9 @@ public class Main {
         //------------------------------------------------------[Refresh outdated]-----------------------------------------------//
         //  refresh the inventory and remove outdated books
         System.out.println("\n Refreshing the Inventory of the outdated Books: \n");
+        System.out.println("1- Removing books that are relased before 15 years:");
         inventory.refresh(15); // demo3 aka Demo Demo should be removed
+        System.out.println("\n2- Removing books that are relased before 2015 year:");
         inventory.refresh(Year.of(2015)); // demo2 aka Demo for Transformers should be removed
 
         //--------------------------------------------------------[Buy a Book]---------------------------------------------------//
@@ -74,13 +76,13 @@ public class Main {
         try {
             purshasingService.buy("1000", 1, "ag.ellsayed@gmail.com", "4 Dokki st");
         } catch (Exception ex) {
-            System.out.println("DODODODODODODODO");
             ex.printStackTrace();
         }
         // 2- then checking the quantity after buying
         Book book = inventory.getBookByISBN("1000");
         PaperBook pbb = (PaperBook) book;
         System.out.println("the quantity after buying 1 copy of " + pbb.getTitle() + " is: " + pbb.getAvailQty()); // there was a 3!
+
         // normal buying scenario
         System.out.println("\nNormal Buying Scenario of an EBook: \n");
         try {
@@ -88,6 +90,7 @@ public class Main {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+
         // try to buy a Demo
         System.out.println("\ntrying to buy a Demo: \n");
         try {
@@ -95,10 +98,11 @@ public class Main {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+
         // buy a Book of unsuffcient Quantity:
         System.out.println("\nbuying a Book of unsuffcient Quantity: \n");
         try {
-            purshasingService.buy("3001", 2, "ag.ellsayed@gmail.com", "4 Dokki st");
+            purshasingService.buy("1001", 2, "ag.ellsayed@gmail.com", "4 Dokki st");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
