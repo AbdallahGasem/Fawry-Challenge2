@@ -13,8 +13,14 @@ import java.time.Year;
 public abstract class Book {
 
     private String ISBN;
-    private String Title;
+    private String title;
     private Year yearPublished;
+
+    public Book(String ISBN, String title, Year yearPublished) {
+        this.ISBN = ISBN;
+        this.title = title;
+        this.yearPublished = yearPublished;
+    }
 
     public String getISBN() {
         return ISBN;
@@ -25,11 +31,11 @@ public abstract class Book {
     }
 
     public String getTitle() {
-        return Title;
+        return title;
     }
 
-    public void setTitle(String Title) {
-        this.Title = Title;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public Year getYearPublished() {

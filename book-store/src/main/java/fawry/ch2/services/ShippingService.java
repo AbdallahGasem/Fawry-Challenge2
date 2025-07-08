@@ -1,15 +1,20 @@
 //                                                      بسم الله الرحمن الرحيم                                                 //
-// Program: Shippable.java
+// Program: ShippingService.java
 // Description: 
 // Author: Abdallah Gasem
 // Date: 08-07-2025
 // Version: 1.0
-/* File run command: javac Shippable.java; java Shippable */
+/* File run command: javac ShippingService.java; java ShippingService */
 // ----------------------------------------------------------------------------------------------------------------------------- //
-package fawry.ch2.interfaces;
+package fawry.ch2.services;
 
-public interface Shippable {
+import fawry.ch2.categories.PaperBook;
 
-    public Double getWeight();
+public class ShippingService {
+
+    public void ship(PaperBook book) {
+
+        System.out.println("Shipping " + book.getTitle() + " of weight " + book.getWeight());
+    }
 
 }

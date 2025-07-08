@@ -8,6 +8,8 @@
 // ----------------------------------------------------------------------------------------------------------------------------- //
 package fawry.ch2.categories;
 
+import java.time.Year;
+
 import fawry.ch2.base.Book;
 import fawry.ch2.interfaces.Purchasable;
 import fawry.ch2.interfaces.Shippable;
@@ -17,12 +19,16 @@ public class PaperBook extends Book implements Shippable, Purchasable {
     // Data
     private Double price;
     private Integer availQty;
+    private Double weight;
 
-    // Setters and Getters
-    public Double getPriceValue() {
-        return price;
+    public PaperBook(String ISBN, String title, Year yearPublished, Double price, Double weight, Integer availQty) {
+        super(ISBN, title, yearPublished);
+        this.weight = weight;
+        this.price = price;
+        this.availQty = availQty;
     }
 
+    // Setters and Getters
     public void setPrice(Double price) {
         this.price = price;
     }
@@ -37,17 +43,13 @@ public class PaperBook extends Book implements Shippable, Purchasable {
 
     /* Traits */
     @Override
-    public String getName() {
-        return "";
+    public Double getWeight() {
+        return weight;
     }
 
     @Override
     public Double getPrice() {
-        return 0.0;
+        return price;
     }
 
-    @Override
-    public Double getWeight() {
-        return 0.0;
-    }
 }

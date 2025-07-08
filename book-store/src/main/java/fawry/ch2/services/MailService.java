@@ -1,20 +1,19 @@
 //                                                      بسم الله الرحمن الرحيم                                                 //
-// Program: ShowCaseBook.java
+// Program: MailService.java
 // Description: 
 // Author: Abdallah Gasem
 // Date: 08-07-2025
 // Version: 1.0
-/* File run command: javac ShowCaseBook.java; java ShowCaseBook */
+/* File run command: javac MailService.java; java MailService */
 // ----------------------------------------------------------------------------------------------------------------------------- //
-package fawry.ch2.categories;
+package fawry.ch2.services;
 
-import java.time.Year;
+import fawry.ch2.categories.EBook;
 
-import fawry.ch2.base.Book;
+public class MailService {
 
-public class ShowCaseBook extends Book {
+    public void mailto(String mail, EBook book){
 
-    public ShowCaseBook(String ISBN, String title, Year yearPublished){
-        super(ISBN, title, yearPublished);
+        System.out.println("Mail Sent to " + mail + " Including Book: " + book.getTitle() + " of file type: " + book.getFileType());
     }
 }
