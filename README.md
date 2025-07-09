@@ -18,4 +18,4 @@
 <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/Tests.png" />
 
 ## Design Draft
-<img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/DD.jpg" />
+<img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/DD1.jpg" />
