@@ -5,10 +5,10 @@ An extensible and testable implementation of an online book store that supports 
 ---
 
 ## Table of Contents
+
 - [System in Action](#system-in-action)
 - [Design Draft](#design-draft)
 - [Testing](#testing)
-- [Design Highlights](#design-highlights)
 - [Important Note on Submission](#important-note-on-submission)
 
 ---
@@ -49,8 +49,8 @@ Screenshots demonstrating the system features:
   <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty2.png" />
 
 - Buy a book with sufficient portion of the required qty Y and n
-  ![](https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty.png)
-  ![](https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty2.png)
+  <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty.png" />
+  <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty2.png" />
 
 - Attempt to Buy with Insufficient Quantity  
   <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/UnSuffThrowError.png" />
