@@ -57,8 +57,6 @@ public class BookStoreTest {
     @Test
     public void testRemoveUnExistingBook() {
         Inventory inventory = new Inventory();
-        Book shakespere = new PaperBook("1000", "shakespere", Year.of(1800), 2500.0, 1.0, 3);
-
         boolean state = inventory.remove("2100");
         assertFalse(state);
     }
@@ -80,6 +78,10 @@ public class BookStoreTest {
         } catch (Exception ex) {
         }
     }
+
+    // @Test
+    // public void testBuyWithSuffPortionOfReqQty() {
+    // }
 
     @Test
     public void testBuyWithUnsuffQty() {

@@ -5,10 +5,10 @@ An extensible and testable implementation of an online book store that supports 
 ---
 
 ## Table of Contents
-
 - [System in Action](#system-in-action)
 - [Design Draft](#design-draft)
 - [Testing](#testing)
+- [Design Highlights](#design-highlights)
 - [Important Note on Submission](#important-note-on-submission)
 
 ---

@@ -12,8 +12,8 @@ import fawry.ch2.categories.EBook;
 
 public class MailService {
 
-    public void mailto(String mail, EBook book){
-
+    public void mailto(String mail, EBook book) {
+        System.out.println("** Mail Notice **");
         System.out.println("Mail Sent to " + mail + " Including Book: " + book.getTitle() + " of file type: " + book.getFileType());
     }
 }

@@ -7,6 +7,8 @@
 // ----------------------------------------------------------------------------------------------------------------------------- //
 package fawry.ch2.services;
 
+import java.util.Scanner;
+
 import fawry.ch2.base.Book;
 import fawry.ch2.base.Inventory;
 import fawry.ch2.categories.EBook;
@@ -39,7 +41,7 @@ public class PurshasingService {
 
         // if it is a Demo book exit
         if (book instanceof ShowCaseBook) {
-            System.err.println("Book: '" +book.getTitle() + "'' is not for sale!");
+            System.err.println("Book: '" + book.getTitle() + "'' is not for sale!");
             return false;
         }
 
@@ -56,6 +58,24 @@ public class PurshasingService {
                 shippingService.ship(pb);
 
                 price = pb.getPrice();
+
+            } else if (Math.abs(pb.getAvailQty() - qty) != 0 && pb.getAvailQty() != 0) {
+                System.out.println("only " + pb.getAvailQty() + " copies are available of " + pb.getTitle() + ". Do you want to buy them? (y/n)");
+                Scanner scanner = new Scanner(System.in);
+                String response = scanner.nextLine();
+                if (response.equalsIgnoreCase("y")) {
+                    // update the quantity of the stock
+                    pb.setAvailQty(0);
+
+                    // ship
+                    shippingService.ship(pb);
+
+                    price = pb.getPrice();
+                } else {
+                    System.out.println("Order Cancelled!");
+                    return false;
+                }
+
             } else {
                 throw new Exception("Un Suffiecient Quantity of Book: " + book.getTitle());
             }
@@ -72,7 +92,6 @@ public class PurshasingService {
         // checkout
         System.out.println("-----------------------------------------------------");
         System.out.println(" Paid Amount: " + price);
-
         return true;
     }
 

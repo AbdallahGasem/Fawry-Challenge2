@@ -13,7 +13,7 @@ import fawry.ch2.categories.PaperBook;
 public class ShippingService {
 
     public void ship(PaperBook book) {
-
+        System.out.println("** Shippment Notice **");
         System.out.println("Shipping " + book.getTitle() + " of weight " + book.getWeight());
     }
 
