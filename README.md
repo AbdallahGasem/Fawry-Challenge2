@@ -39,7 +39,7 @@ Screenshots demonstrating the system features:
   <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookChkQty.png" />
 
 - Buy an EBook  
-  <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyEbook.png" />
+  <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyEBook.png" />
 
 - Try to Buy a Demo Book (Not for Sale)  
   <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyDemo.png" />
