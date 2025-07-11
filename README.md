@@ -77,6 +77,8 @@ The project following Thought and design process:
 
 This structure ensures that adding new book types (like `AudioBook`) requires no modifications to existing classes.
 
+<img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/DD2.png"/>
+
 ---
 
 ## Testing
@@ -89,7 +91,7 @@ JUnit tests were written to validate:
 - Purchasing in normal and edge-case scenarios
 
 Test results:  
-<img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/Tests.png"
+<img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/Tests.png"/>
 
 ---
 
@@ -97,12 +99,6 @@ Test results:
 
 I received the challenge email at **2:16 PM on 07/10/2025**, but started working on it at **5:00 PM** after reading the email.  
 Despite the **10:00 PM deadline**, I completed the **entire project in just 5 hours** — including:
-
-- Requirement analysis
-- Object-oriented design
-- Full implementation
-- JUnit testing
-- README documentation
 
 On **11/07/2025**, after seeing the deadline had been extended by 2 days, I made a **final commit** to:
 
