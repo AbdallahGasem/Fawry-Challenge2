@@ -48,6 +48,10 @@ Screenshots demonstrating the system features:
   <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty.png" />
   <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty2.png" />
 
+- Buy a book with sufficient portion of the required qty Y and n
+  ![](https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty.png)
+  ![](https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/BuyPaperBookSuffPorQty2.png)
+
 - Attempt to Buy with Insufficient Quantity  
   <img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/UnSuffThrowError.png" />
 
