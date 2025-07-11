@@ -77,7 +77,7 @@ The project following Thought and design process:
 
 This structure ensures that adding new book types (like `AudioBook`) requires no modifications to existing classes.
 
-<img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/DD2.png"/>
+<img src="https://github.com/AbdallahGasem/Fawry-Challenge2/blob/main/Planning/DD2.jpg"/>
 
 ---
 
