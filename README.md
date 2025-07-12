@@ -67,8 +67,7 @@ The project following Thought and design process:
 2. **Proposed Trait-Based design via Interfaces**
 
    - Introduced `Shippable` and `Purchasable` interfaces
-   - Still, this required creating many child classes for each product type
-
+    
 3. **Final Design (Category-Driven Polymorphism)**
    - Defined high-level categories (`PaperBook`, `EBook`, `ShowCaseBook`)
    - Applied only the traits needed (e.g., `Shippable`, `Purchasable`)
