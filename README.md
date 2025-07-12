@@ -71,7 +71,7 @@ The project following Thought and design process:
 3. **Final Design (Category-Driven Polymorphism)**
    - Defined high-level categories (`PaperBook`, `EBook`, `ShowCaseBook`)
    - Applied only the traits needed (e.g., `Shippable`, `Purchasable`)
-   - Introduced `PurchasingService` to decouple checkout logic from `Cart` and `Inventory`
+   - Introduced `PurchasingService` to decouple checkout logic from `Inventory`
    - Each service (e.g., `MailService`, `ShippingService`) now works independently with injected dependencies
 
 This structure ensures that adding new book types (like `AudioBook`) requires no modifications to existing classes.
