@@ -98,7 +98,7 @@ Test results:
 ## Important Note on Submission
 
 I received the challenge email at **2:16 PM on 07/10/2025**, but started working on it at **5:00 PM** after reading the email.  
-Despite the **10:00 PM deadline**, I completed the **entire project in just 5 hours** — including:
+Despite the **10:00 PM deadline**, I completed the **entire project in just 5 hours**
 
 On **11/07/2025**, after seeing the deadline had been extended by 2 days, I made a **final commit** to:
 
